@@ -1,0 +1,12 @@
+name: My First CI
+
+on:
+  push:
+
+jobs:
+  test:
+    run-on: ubuntu-latest
+
+    steps:
+      - name: Show message
+        run: echo "CI started"
